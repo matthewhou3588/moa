@@ -50,7 +50,8 @@ public class WriteStreamToARFFFile extends AuxiliarMainTask {
 
     public ClassOption streamOption = new ClassOption("stream", 's',
             "Stream to write.", InstanceStream.class,
-            "generators.RandomTreeGenerator");
+//            "generators.RandomTreeGenerator");
+            "moa.streams.clustering.RandomRBFGeneratorEvents");
 
     public FileOption arffFileOption = new FileOption("arffFile", 'f',
             "Destination ARFF file.", null, "arff", true);
