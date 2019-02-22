@@ -39,6 +39,7 @@ public class WithDBSCANTest {
             running = false;
             withDBSCANRun.pause();
             withDBSCANRun.showClusterMetrics();
+
         }
         else{
             running = true;
